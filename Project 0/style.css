@@ -1,0 +1,51 @@
+.content {
+    display: flex;
+    flex-direction:column;
+    border:2px solid red
+}
+
+.linkpair {
+    display:flex;
+    align-self:flex-end;
+}
+
+.link {
+    display:flex;
+    margin-right:20px
+}
+
+.searchbar {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self:center;
+}
+
+.advpair {
+    display:flex
+}
+
+.queries {
+    display:flex;
+    justify-content: space-evenly;
+    border:2px solid red
+}
+
+.specs {
+    display:flex;
+    flex-direction: column;
+}
+.boxes {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.blubutton {
+    background-color: rgb(60, 60, 240);
+    color:white;
+}
+
+.blubutton:hover {
+    background-color:blue
+}
